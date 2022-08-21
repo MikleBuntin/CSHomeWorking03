@@ -24,6 +24,7 @@ pointB[1] = Convert.ToInt32(Console.ReadLine());
 Console.Write("z = ");
 pointB[2] = Convert.ToInt32(Console.ReadLine());
 
+// Немного замороченный ввод, зато можно будет принимать массивы откуда-то ещё, чтом=б работать с ними. :)
 
 double ABDistance(int[] a, int[] b)
 {
