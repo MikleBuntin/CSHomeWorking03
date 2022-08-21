@@ -4,3 +4,11 @@
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
+Console.WriteLine("Введите число N: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+for(int i = 1; i < n + 1; i++)
+{
+    Console.Write(i * i  + $" ");
+}
+Console.WriteLine();
